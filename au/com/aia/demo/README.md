@@ -13,12 +13,12 @@ Method 1: direct import and call
 import au.com.aia.math
 print(au.com.aia.math.sum(1,3))
 ```
-Method 2:import with as name
+Method 2: import class as name
 ```python
 import au.com.aia.math as math
 print(math.sum(1,5))
 ```
-Method 3: from import
+Method 3: from import as name
 ```python
 from au.com.aia import math
 print(math.sum(1,7))
