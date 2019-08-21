@@ -10,26 +10,26 @@ def sum(a,b):
 
 Method 1: direct import and call
 ```python
-import au.com.aia.math
-print(au.com.aia.math.sum(1,3))
+import au.com.david.math
+print(au.com.david.math.sum(1,3))
 ```
 Method 2: import class as name
 ```python
-import au.com.aia.math as math
+import au.com.david.math as math
 print(math.sum(1,5))
 ```
 Method 3: from import as name
 ```python
-from au.com.aia import math
+from au.com.david import math
 print(math.sum(1,7))
 ```
 Method 4: import method name as internal method
 ```python
-from au.com.aia.math import sum
+from au.com.david.math import sum
 print(sum(1,100))
 ```
 Method 5: import method name as internal method with other name
 ```python
-from au.com.aia.math import sum as sum1
+from au.com.david.math import sum as sum1
 print(sum1(1,100))
 ```
