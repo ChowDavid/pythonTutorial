@@ -1,4 +1,4 @@
-Here we have a math.py three look like
+Here we have a math.py tree look like
 
 ![Tree](packageTree.PNG?raw=true "Tree")
 
