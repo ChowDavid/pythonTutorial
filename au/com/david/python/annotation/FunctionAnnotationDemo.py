@@ -4,4 +4,6 @@ def f(ham:str , eggs:str = 'eggs') ->(str,str):
     return ham+' and '+eggs,'others output'
 
 
-print(f('spam'))
+x ,y = f('spam')
+print('x=',x)
+print('y=',y)
